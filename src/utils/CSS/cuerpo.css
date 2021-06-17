@@ -1,0 +1,183 @@
+@font-face{
+    src: url(../fuentes/Atma-SemiBold.woff);
+    font-family: 'Atma';
+}
+.contePrincipal{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6B6B6B;
+    
+}
+    .conteTodo{
+        display: flex;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #EAEAEA;
+    }
+        .parteIzq{
+            width: 30%;
+            display: block;
+            background-color: #6ABBF6;
+        }
+            .conteImg{
+                text-align: center;
+            }
+                .conteImg img{
+                    width: 250px;
+                    height: auto;
+                }
+            .Texto h3{
+                font-family: Atma;
+                font-size: 20px;
+                margin-left: 10px;
+                text-decoration: underline;
+            }
+            .Texto p{
+                font-family: Arial;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: justify;
+            }
+            .cont{
+                width: 20px;
+                height: 20px;
+            }
+        .parteDer{
+            width: 70%;
+            align-items: left;
+        }
+        .parteDer h1{
+            font-family: Atma;
+            font-size: 40px;
+            margin-bottom: 0%;
+        }
+        .parteDer h2{
+            font-family: Atma;
+            font-size: 30px;
+            margin-top: 0%;
+        }
+        .boton{
+            align-items: center;
+            margin-top: 5%;
+            text-align: center;
+            /* margin-right: auto;
+            margin-left: auto; */
+        }
+        button{
+            margin-left: 5%;
+            background-color: #6ABBF6;
+            font-family: Atma;
+            font-size: 35px;
+            align-items: center;
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+        }
+
+/* barras de skills */
+
+body { background: #E9E5E2 ; }
+
+#skill { 
+    list-style: none;
+    font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    width: 296px;
+    margin: 50px auto 0;
+    position: relative;
+    line-height: 2em;
+    padding: 30px 0;
+}
+
+#skill li { 
+    margin-bottom:50px; 
+    background:#e9e5e2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+    background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+    background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+    height:20px; 
+    border-radius:10px; 
+    -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+    -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+    box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li h3 { 
+    position:relative; 
+    top:-25px;
+}
+
+.bar { 
+    height:18px; 
+    margin:1px 2px;  
+    position:absolute;
+    border-radius:10px;
+    -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+    -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.graphic-design {
+    width:90%; 
+    -moz-animation:graphic-design 2s ease-out;
+    -webkit-animation:graphic-design 2s ease-out;
+    background-color: #74a2f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#74a2f6), to(#74a2f6));
+    background-image: -webkit-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -moz-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -ms-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -o-linear-gradient(top, #74a2f6, #74a2f6#74a2f6#74a2f6);
+    background-image: linear-gradient(top, #74a2f6, #74a2f6);
+}
+
+.html{
+    width:80%;
+    -moz-animation:html 2s ease-out;
+    -webkit-animation:html 2s ease-out;
+    background-color: #74a2f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#74a2f6#74a2f6), to(#74a2f6#74a2f6));
+    background-image: -webkit-linear-gradient(top, #74a2f6#74a2f6, #74a2f6#74a2f6);
+    background-image: -moz-linear-gradient(top, #74a2f6#74a2f6, #74a2f6#74a2f6);
+    background-image: -ms-linear-gradient(top, #74a2f6#74a2f6, #74a2f6#74a2f6);
+    background-image: -o-linear-gradient(top,#74a2f6#74a2f6, #74a2f6#74a2f6);
+    background-image: linear-gradient(top, #74a2f6#74a2f6, #74a2f6#74a2f6);
+}
+
+.CSS{
+    width:80%;
+    -moz-animation:CSS 2s ease-out;
+    -webkit-animation:CSS 2s ease-out;
+    background-color: #74a2f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#74a2f6#74a2f6), to(#74a2f6#74a2f6));
+    background-image: -webkit-linear-gradient(top, #74a2f6#74a2f6, #74a2f6#74a2f6);
+    background-image: -moz-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -ms-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -o-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: linear-gradient(top, #74a2f6, #74a2f6);
+}
+
+.React {
+    width:20%;
+    -moz-animation:React 2s ease-out;
+    -webkit-animation:React 2s ease-out;
+    background-color: #74a2f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#74a2f6), to(#74a2f6));
+    background-image: -webkit-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -moz-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -ms-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: -o-linear-gradient(top, #74a2f6, #74a2f6);
+    background-image: linear-gradient(top, #74a2f6, #74a2f6)	
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes html       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes CSS     { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes React   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes html       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes CSS    { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes React   { 0%  { width:0px;} 100%{ width:80%;}  }

@@ -1,0 +1,29 @@
+.prinabrriba{
+    background-color: #EAEAEA;
+    display: flex;
+}
+    .sobreMi{
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 10px; 
+        border: 5px solid #6ABBF6;
+        display: flex;
+        width: 60%;
+    }
+        .texting{
+            border: solid springgreen 1px;
+        }
+        .ima{
+            border: solid pink;
+        }
+        .botones{
+            margin-left: 5%;
+            border: solid slateblue;
+            flex-direction: column;
+            align-items: center;
+        }
+            .bo1{
+                margin-top: 60%;
+                margin-bottom: 35%;
+            }
