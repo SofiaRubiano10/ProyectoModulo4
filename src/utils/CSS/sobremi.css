@@ -12,14 +12,10 @@
         width: 60%;
     }
         .texting{
-            border: solid springgreen 1px;
-        }
-        .ima{
-            border: solid pink;
+            text-align: justify;
         }
         .botones{
             margin-left: 5%;
-            border: solid slateblue;
             flex-direction: column;
             align-items: center;
         }

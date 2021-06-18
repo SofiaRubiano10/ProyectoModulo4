@@ -2,11 +2,20 @@
     src: url(../fuentes/Atma-SemiBold.woff);
     font-family: 'Atma';
 }
+@font-face{
+    src: url(../fuentes/Atma-Light.woff);
+    font-family: 'AtmaLi';
+}
 .contePrincipal{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #6B6B6B;
     
+}
+p{
+    font-family: 'AtmaLi';
+    color: black;
+    font-size: 20px;
 }
     .conteTodo{
         display: flex;
@@ -34,7 +43,6 @@
                 text-decoration: underline;
             }
             .Texto p{
-                font-family: Arial;
                 margin-left: 10px;
                 margin-right: 10px;
                 text-align: justify;
@@ -55,6 +63,11 @@
         .parteDer h2{
             font-family: Atma;
             font-size: 30px;
+            margin-top: 0%;
+        }
+        .parteDer h4{
+            font-family: Atma;
+            font-size: 18px;
             margin-top: 0%;
         }
         .boton{
