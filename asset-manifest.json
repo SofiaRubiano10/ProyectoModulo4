@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ProyectoModulo4/static/css/main.28cd3514.chunk.css",
+    "main.js": "/ProyectoModulo4/static/js/main.8ef77f28.chunk.js",
+    "main.js.map": "/ProyectoModulo4/static/js/main.8ef77f28.chunk.js.map",
+    "runtime-main.js": "/ProyectoModulo4/static/js/runtime-main.05f11816.js",
+    "runtime-main.js.map": "/ProyectoModulo4/static/js/runtime-main.05f11816.js.map",
+    "static/js/2.b5ca8213.chunk.js": "/ProyectoModulo4/static/js/2.b5ca8213.chunk.js",
+    "static/js/2.b5ca8213.chunk.js.map": "/ProyectoModulo4/static/js/2.b5ca8213.chunk.js.map",
+    "index.html": "/ProyectoModulo4/index.html",
+    "static/css/main.28cd3514.chunk.css.map": "/ProyectoModulo4/static/css/main.28cd3514.chunk.css.map",
+    "static/js/2.b5ca8213.chunk.js.LICENSE.txt": "/ProyectoModulo4/static/js/2.b5ca8213.chunk.js.LICENSE.txt",
+    "static/media/cuerpo.css": "/ProyectoModulo4/static/media/Atma-SemiBold.1af6e59d.woff",
+    "static/media/Sofia.62bb62f1.png": "/ProyectoModulo4/static/media/Sofia.62bb62f1.png",
+    "static/media/email.8053326d.svg": "/ProyectoModulo4/static/media/email.8053326d.svg",
+    "static/media/image.42be8d75.png": "/ProyectoModulo4/static/media/image.42be8d75.png",
+    "static/media/telefono.48d8b122.svg": "/ProyectoModulo4/static/media/telefono.48d8b122.svg",
+    "static/media/ubi.721fd241.svg": "/ProyectoModulo4/static/media/ubi.721fd241.svg",
+    "static/media/yomor.177fab73.png": "/ProyectoModulo4/static/media/yomor.177fab73.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05f11816.js",
+    "static/js/2.b5ca8213.chunk.js",
+    "static/css/main.28cd3514.chunk.css",
+    "static/js/main.8ef77f28.chunk.js"
+  ]
+}
